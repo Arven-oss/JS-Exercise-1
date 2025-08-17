@@ -11,14 +11,10 @@ let isStudent = Number(age) < 25;
 console.log("Is Student?", isStudent);
 
 const person = {
-    name: {
-        first: "Armando Ven Maximus",
-        last: "Opong",
-        age: 19,
-    },
-    isStudent: true
+    name: "Armando",
+    age: 19,
 };
-console.log("First Name:", person.name.first);
+console.log("Name:", person.name);
 
 let colors = ["black", "white", "purple", "violet", "black"];
 console.log("Colors:", colors);
